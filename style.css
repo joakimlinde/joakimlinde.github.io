@@ -11,9 +11,9 @@ pre {line-height:1.4em}
 ol {margin:1em 0 2em 0;}
 li {line-height: 1.5em;}
 
-a:link {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0;}
-a:visited {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0;}
-a:hover {color: #999; border-width: 0 0 1px 0; border-style: none none solid none; border-color: #C0C0C0; text-decoration: none;}
+a:link {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none dotted none; border-color: #C0C0C0;}
+a:visited {color: #303030; text-decoration: none; border-width: 0 0 1px 0; border-style: none none dotted none; border-color: #C0C0C0;}
+a:hover {color: #999; border-width: 0 0 1px 0; border-style: none none dotted none; border-color: #C0C0C0; text-decoration: none;}
 
 /* for iPhone-sized devices */
 @media only screen and (max-device-width: 480px) {
