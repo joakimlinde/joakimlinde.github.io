@@ -1,24 +1,31 @@
-<!DOCTYPE html>
-<html lang="en-US" class="no-js">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Joakim Linde</title>
-  <script src="maillinks.js"></script>
-  <link rel='stylesheet' href='style.css' type='text/css' media='all'>
-</head>
+---
+layout: default
+title: Home
+---
 
-<body>
-<h1>joakim linde</h1>
-<p>
-created: <a href="https://youtu.be/ez-2M3C_4wU">apple pay</a> &middot; <a href="https://youtu.be/mswxzXlhivQ">mfi hearing aids</a> &middot; <a href="https://developer.apple.com/reference/corebluetooth">core bluetooth</a><br>
-is: <a href="http://www.baue.org">diver</a> &middot; <a href="http://sfzc.org">zen</a><br>
-where: <a href="https://en.wikipedia.org/wiki/Palo_Alto,_California">palo alto</a> &middot; <a href="http://en.wikipedia.org/wiki/Istanbul">istanbul</a><br>
-twitter: <a href="https://twitter.com/joakimlinde">joakimlinde</a><br>
-micro.blog: <a href="https://micro.blog/joakimlinde">joakimlinde</a><br>
-linkedin: <a href="https://linkedin.com/in/joakimlinde">joakimlinde</a><br>
-keybase: <a href="https://keybase.io/joakimlinde">joakimlinde</a><br>
-telegram: <a href="https://t.me/joakimlinde">joakimlinde</a><br>
-email: <script type="text/javascript">gen_mail_to_link_with_subject('hello','joakimlinde.com','Hello');</script>
-</body>
-</html>
+<div class="posts">
+  {% for post in site.posts %}
+  {% if forloop.first %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %-d, %Y' }}</time>
+    {{ post.content }}
+  </article>
+  {% else %}
+  <hr />
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %-d, %Y' }}</time>
+    {{ post.content }}
+  </article>
+  {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,19 @@
+# Permalinks
+permalink:           :title.html
+
+# Setup
+title:               "@joakimlinde"
+tagline:             ""
+url:                 http://joakimlinde.com
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-feed
