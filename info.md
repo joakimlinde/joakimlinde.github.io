@@ -1,5 +1,5 @@
 ---
 layout: redirect
-title: now
+title: info
 redirect: /hello
 ---
