@@ -3,7 +3,7 @@ layout: default
 title: hello
 ---
 
-# say hello
+# say hey, hi, hello
 
 now: mostly architectural & interiors photography<br>
 where: <a href="http://en.wikipedia.org/wiki/Palo_Alto,_California">palo alto</a> | <a href="http://en.wikipedia.org/wiki/Istanbul">istanbul</a><br>
