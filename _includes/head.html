@@ -4,7 +4,7 @@
 
   <title>
     {% if page.title == "Home" %}
-    &commat;{{ site.title }}
+    {{ site.title }}
     {% else %}
     {{ page.title }} &bull; {{ site.title }}
     {% endif %}
@@ -20,6 +20,8 @@
   <meta property="og:image" content="{{ site.baseurl }}/photos/{{ page.photo }}" />
   {% endif %}
   {% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />	
+  <meta property="og:site_name" content="{{ site.title }}" />
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
   <script src="{{ site.baseurl }}/assets/js/maillinks.js"></script>

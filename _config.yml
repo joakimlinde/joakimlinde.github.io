@@ -6,6 +6,10 @@ title:               "joakimlinde"
 tagline:             ""
 url:                 http://joakimlinde.com
 
+author:
+  name: Joakim Linde
+  page: hello
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
