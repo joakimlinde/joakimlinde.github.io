@@ -1,5 +1,5 @@
 ---
-layout: photos
+layout: photo
 title: Palo Alto Hospital
 photo: palo-alto-hospital-1.jpg
 additionalphotos: palo-alto-hospital-2.jpg, palo-alto-hospital-3.jpg, palo-alto-hospital-4.jpg
