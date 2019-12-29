@@ -18,6 +18,10 @@ title: Home
       <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}" title="{{ post.title }}" /></a></p>
     {% endif %}
     {{ post.content }}
+    {% if post.additionalphotos %}
+    <p><a href="{{ site.baseurl }}{{ post.url }}">
+      &#8680; More images</a></p>
+    {% endif %}
   </article>
   {% else %}
   <hr />
@@ -33,6 +37,10 @@ title: Home
       <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}" title="{{ post.title }}" /></a></p>
     {% endif %}
     {{ post.content }}
+    {% if post.additionalphotos %}
+    <p><a href="{{ site.baseurl }}{{ post.url }}">
+      &#8680; More images</a></p>
+    {% endif %}
   </article>
   {% endif %}
   {% endfor %}
