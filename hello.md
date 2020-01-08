@@ -3,7 +3,7 @@ layout: default
 title: hello
 ---
 
-# say hey, hi, hello
+# Say hey, hi, hello
 
 where: <a href="http://en.wikipedia.org/wiki/Palo_Alto,_California">palo alto</a> | <a href="http://en.wikipedia.org/wiki/Istanbul">istanbul</a><br>
 twitter: <a href="http://twitter.com/joakimlinde">joakimlinde</a><br>
