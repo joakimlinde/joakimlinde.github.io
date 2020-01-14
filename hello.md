@@ -11,3 +11,5 @@ linkedin: <a href="http://linkedin.com/in/joakimlinde">joakimlinde</a><br>
 telegram: <a href="https://t.me/joakimlinde">joakimlinde</a><br>
 instagram: <a href="https://www.instagram.com/joakimlindephotography/">joakimlindephotography</a><br>
 email: <script type="text/javascript">gen_mail_to_link_with_subject('hello','joakimlinde.com','Hello');</script>
+
+<p><a href="{{ site.baseurl }}/patents">patents</a></p>
