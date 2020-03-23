@@ -5,8 +5,10 @@ layout: post
 <p><a href="{{ site.baseurl }}/photos/{{ page.photo }}">
     <img src="{{ site.baseurl }}/photos/{{ page.photo }}" alt="{{ page.title }}" title="{{ page.title }}" /></a></p>
 {{ content }}
+{% if page.additionalphotos | strip != "true" %}
 {% assign additionalphotos = page.additionalphotos | split: ", " %}
 {% for photo in additionalphotos %}
 <p><a href="{{ site.baseurl }}/photos/{{ photo }}">
     <img src="{{ site.baseurl }}/photos/{{ photo }}" alt="{{ page.title }}" title="{{ page.title }}" /></a></p>
 {% endfor %}
+{% endif %}
