@@ -6,29 +6,9 @@ title: Home
 <div class="posts">
   {% for post in site.posts %}
   {% if forloop.first %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %-d, %Y' }}</time>
-    {% if post.photo %}
-    <p><a href="{{ site.baseurl }}{{ post.url }}">
-      <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}" title="{{ post.title }}" /></a></p>
-    {% endif %}
-    {% if post.lede %}
-    {{ post.lede }}
-    {% else %}
-    {{ post.content }}
-    {% endif %}    
-    {% if post.additionalphotos %}
-    <p><a href="{{ site.baseurl }}{{ post.url }}">
-      &#8680; More images</a></p>
-    {% endif %}
-  </article>
   {% else %}
   <hr />
+  {% endif %}  
   <article class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
@@ -41,15 +21,16 @@ title: Home
       <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}" title="{{ post.title }}" /></a></p>
     {% endif %}
     {% if post.lede %}
-    {{ post.lede }}
+    <p>{{ post.lede }}</p>
+    <p><a href="{{ site.baseurl }}{{ post.url }}">
+      &#8680; Full article and more images</a></p>
     {% else %}
     {{ post.content }}
-    {% endif %}    
     {% if post.additionalphotos %}
     <p><a href="{{ site.baseurl }}{{ post.url }}">
       &#8680; More images</a></p>
     {% endif %}
+    {% endif %}    
   </article>
-  {% endif %}
   {% endfor %}
 </div>

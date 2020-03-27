@@ -38,7 +38,6 @@ emerges — the image gets a life of its own.
   <img src="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg" /></a>
 <small><i>Detail of Spinning zoomed in to 100%</i></small></p>
 
-
 <p><a href="{{ site.baseurl }}/photos/at-the-edge-2.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-2.jpg" /></a>
 <small><i>At the Edge of Chaos</i></small></p>
@@ -61,8 +60,8 @@ emerges — the image gets a life of its own.
 
 <p><a href="{{ site.baseurl }}/photos/at-the-edge-3.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-3.jpg" /></a>
-<small><i>Enjoying the Gates of Hell</i></small></p>
+<small><i>Enjoying <a href="https://en.wikipedia.org/wiki/The_Gates_of_Hell">The Gates of Hell</a></i></small></p>
 
 <p><a href="{{ site.baseurl }}/photos/at-the-edge-1.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-1.jpg" /></a>
-<small><i>A day at the Arts Museum</i></small></p>
+<small><i>A day at the <a href="https://museum.stanford.edu/exhibitions/oyyo">Art Museum</a></i></small></p>
