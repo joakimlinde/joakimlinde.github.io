@@ -6,9 +6,11 @@ additionalphotos: true
 lede: At the Edge is a body of work examining how to capture space and time on a flat surface. The series consists of six composite images, each consisting of a number photographs between eight and 29 layered on top of each other.
 ---
 
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-5.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-5.jpg" /></a>
-<small><i>Spinning</i></small></p>
+<div class="post-figure">
+<a href="{{ site.baseurl }}/photos/at-the-edge-5.jpg">
+  <img src="{{ site.baseurl }}/photos/at-the-edge-5.jpg"></a>
+Spinning
+</div>
 
 At the Edge is a body of work examining how to capture space and time on a flat surface. 
 The series consists of six composite images, each consisting of a number photographs 
@@ -34,34 +36,44 @@ the number of photographs used increases, the more organic and abstract it becom
 becomes harder to determine individual shapes. Instead, a composite image organically 
 emerges — the image gets a life of its own.
 
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg" /></a>
-<small><i>Detail of Spinning zoomed in to 100%</i></small></p>
+<div class="post-figure">
+<a href="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg">
+  <img src="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg"></a>
+Detail of Spinning zoomed in to 100%
+</div>
 
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-2.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-2.jpg" /></a>
-<small><i>At the Edge of Chaos</i></small></p>
+<div class="post-figure">
+<a href="{{ site.baseurl }}/photos/at-the-edge-2.jpg">
+  <img src="{{ site.baseurl }}/photos/at-the-edge-2.jpg"></a>
+At the <a href="{{ site.baseurl }}/park-staircase">Edge of Chaos</a>
+</div>
 
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-6.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-6.jpg" /></a>
-<small><i>Graphite</i></small></p>
+<div class="post-figure">
+<a href="{{ site.baseurl }}/photos/at-the-edge-6.jpg">
+  <img src="{{ site.baseurl }}/photos/at-the-edge-6.jpg"></a>
+<a href="{{ site.baseurl }}/stanford-health-care">Graphite</a>
+</div>
 
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg" /></a>
-<small><i>Detail of Graphite zoomed in to 100%</i></small></p>
+<div class="post-figure">
+<a href="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg">
+  <img src="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg"></a>
+Detail of Graphite zoomed in to 100%
+</div>
 
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-4.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-4.jpg" /></a>
-<small><i>Foot Massage!</i></small></p>
+<div class="post-figure">
+<a href="{{ site.baseurl }}/photos/at-the-edge-4.jpg">
+  <img src="{{ site.baseurl }}/photos/at-the-edge-4.jpg"></a>
+Foot Massage!
+</div>
 
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-2.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-2.jpg" /></a>
-<small><i>At the Edge of Chaos</i></small></p>
+<div class="post-figure">
+<a href="{{ site.baseurl }}/photos/at-the-edge-3.jpg">
+  <img src="{{ site.baseurl }}/photos/at-the-edge-3.jpg"></a>
+Enjoying <a href="https://en.wikipedia.org/wiki/The_Gates_of_Hell">The Gates of Hell</a>
+</div>
 
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-3.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-3.jpg" /></a>
-<small><i>Enjoying <a href="https://en.wikipedia.org/wiki/The_Gates_of_Hell">The Gates of Hell</a></i></small></p>
-
-<p><a href="{{ site.baseurl }}/photos/at-the-edge-1.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-1.jpg" /></a>
-<small><i>A day at the <a href="https://museum.stanford.edu/exhibitions/oyyo">Art Museum</a></i></small></p>
+<div class="post-figure">
+<a href="{{ site.baseurl }}/photos/at-the-edge-1.jpg">
+  <img src="{{ site.baseurl }}/photos/at-the-edge-1.jpg"></a>
+A day at the <a href="https://museum.stanford.edu/exhibitions/oyyo">Art Museum</a>
+</div>

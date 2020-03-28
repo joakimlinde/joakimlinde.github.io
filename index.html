@@ -18,7 +18,7 @@ title: Home
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %-d, %Y' }}</time>
     {% if post.photo %}
     <p><a href="{{ site.baseurl }}{{ post.url }}">
-      <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}" title="{{ post.title }}" /></a></p>
+      <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}" title="{{ post.title }}"></a></p>
     {% endif %}
     {% if post.lede %}
     <p>{{ post.lede }}</p>
