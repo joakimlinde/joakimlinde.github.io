@@ -22,13 +22,11 @@ title: Home
     {% endif %}
     {% if post.lede %}
     <p>{{ post.lede }}</p>
-    <p><a href="{{ site.baseurl }}{{ post.url }}">
-      &#8680; Full article and more images</a></p>
+    <p><a href="{{ site.baseurl }}{{ post.url }}">Read more &gt;</a></p>
     {% else %}
     {{ post.content }}
     {% if post.additionalphotos %}
-    <p><a href="{{ site.baseurl }}{{ post.url }}">
-      &#8680; More images</a></p>
+    <p><a href="{{ site.baseurl }}{{ post.url }}">More images &gt;</a></p>
     {% endif %}
     {% endif %}    
   </article>

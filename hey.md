@@ -1,5 +1,5 @@
 ---
 layout: redirect
 title: hey
-redirect: /hello
+redirect: /about
 ---
