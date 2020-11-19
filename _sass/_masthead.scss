@@ -9,15 +9,20 @@
   margin-bottom: 3rem;
   font-size: 1.25rem;
   font-weight: 500;
-  color: #9a9a9a;
+  color: $color-black;
 }
 
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
+}
 
-  a {
-    color: inherit;
+.masthead-title a {
+  color: inherit;
+  &:hover,
+  &:focus {
+    color: $color-link-blue;
+    text-decoration: none;
   }
 }
 
@@ -26,8 +31,14 @@
   margin-bottom: 0;
   float: right;
   font-weight: 400;
+}
 
-  a {
-    color: inherit;
+.masthead-menu a {
+  color: inherit;
+  &:hover,
+  &:focus {
+    color: $color-link-blue;
+    text-decoration: none;
   }
 }
+

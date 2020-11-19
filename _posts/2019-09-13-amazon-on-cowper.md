@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: Amazon on Cowper 1
+title: Amazon on Cowper
 photo: amazon-on-cowper-1.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: Stanford Hospital 1
+title: Stanford Hospital
 photo: stanford-hospital-1.jpg
 ---
 

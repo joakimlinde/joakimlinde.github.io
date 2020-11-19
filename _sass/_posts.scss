@@ -17,7 +17,12 @@
 .page-title,
 .post-title,
 .post-title a {
-  color: #212325;
+  color: inherit;
+	&:hover,
+	&:focus {
+		color: $color-link-blue;
+  	text-decoration: none;
+  }
 }
 .page-title,
 .post-title {
