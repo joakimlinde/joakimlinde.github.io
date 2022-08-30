@@ -3,11 +3,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>
-    {% if page.title == "Home" %}
-    {{ site.title }}
-    {% else %}
-    {{ page.title }} &bull; {{ site.title }}
-    {% endif %}
+  {% if page.title == "Home" %}
+  {{ site.title }}
+  {% else %}
+  {{ page.title }} &bull; {{ site.title }}
+  {% endif %}
   </title>
   {% if page.title == "Home" %}
   <meta property="og:title" content="{{ site.title }}" />
@@ -23,6 +23,6 @@
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />	
   <meta property="og:site_name" content="{{ site.title }}" />
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
   <script src="{{ site.baseurl }}/assets/js/maillinks.js"></script>
 </head>

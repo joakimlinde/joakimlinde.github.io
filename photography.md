@@ -1,5 +1,5 @@
 ---
 layout: redirect
 title: photography
-redirect: https://joakimlinde.photography
+redirect: https://joakimlinde.com
 ---

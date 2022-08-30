@@ -1,11 +1,8 @@
 ---
 layout: default
-title: About
+title: Links
 ---
 
-# About
-
-
-# Say hello
+# Links
 
 {% include hello.html %}

@@ -6,26 +6,28 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>{{ site.title }}</title>
-  <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self"/>
   <link href="{{ site.url }}{{ site.baseurl }}/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}</id>
-
+  <author>
+    <name>{{ site.author.name }}</name>
+    <uri>{{ site.url }}{{ site.baseurl }}/{{ site.author.page }}</uri>
+  </author>
   {% for post in site.posts %}
   <entry>
     <id>{{ site.url }}{{ post.id }}</id>
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
-    {% if post.photo %}
     <author>
       <name>{{ site.author.name }}</name>
       <uri>{{ site.url }}{{ site.baseurl }}/{{ site.author.page }}</uri>
     </author>
+    {% if post.photo %}
     <image>{{ site.url }}{{ site.baseurl }}/photos/{{ post.photo }}</image>
     {% endif %}   
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
   {% endfor %}
-
 </feed>

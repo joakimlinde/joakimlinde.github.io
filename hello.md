@@ -1,5 +1,8 @@
 ---
-layout: redirect
+layout: default
 title: hello
-redirect: /about
 ---
+
+# Say hello
+
+{% include hello.html %}

@@ -4,7 +4,7 @@ permalink:           :title.html
 # Setup
 title:               "Joakim Linde"
 tagline:             ""
-url:                 http://joakimlinde.com
+url:                 http://joakimlinde.io
 
 author:
   name: Joakim Linde
@@ -20,4 +20,3 @@ sass:
 # Gems
 plugins:
   - jekyll-gist
-  - jekyll-feed

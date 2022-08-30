@@ -16,19 +16,23 @@ title: Home
       </a>
     </h1>
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %-d, %Y' }}</time>
+    
+    {% if post.layout == "photo" %}
     {% if post.photo %}
-    <p><a href="{{ site.baseurl }}{{ post.url }}">
+    <p><a href="{{ site.baseurl }}/photos/{{ post.photo }}">
       <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}" title="{{ post.title }}"></a></p>
     {% endif %}
-    {% if post.lede %}
-    <p>{{ post.lede }}</p>
-    <p><a href="{{ site.baseurl }}{{ post.url }}">Read more &gt;</a></p>
-    {% else %}
-    {{ post.content }}
-    {% if post.additionalphotos %}
-    <p><a href="{{ site.baseurl }}{{ post.url }}">More images &gt;</a></p>
     {% endif %}
-    {% endif %}    
+    {{ post.content }}
+    {% if post.layout == "photo" %}
+    {% if post.additionalphotos | strip != "true" %}
+    {% assign additionalphotos = post.additionalphotos | split: ", " %}
+    {% for photo in additionalphotos %}
+    <p><a href="{{ site.baseurl }}/photos/{{ photo }}">
+      <img src="{{ site.baseurl }}/photos/{{ photo }}" alt="{{ photo }}" title="{{ photo }}"></a></p>
+    {% endfor %}
+    {% endif %}
+    {% endif %}
   </article>
   {% endfor %}
 </div>

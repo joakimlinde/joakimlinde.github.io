@@ -1,6 +1,6 @@
 ---
 layout: default
-title: copyright
+title: Copyright
 ---
 
 # Copyright

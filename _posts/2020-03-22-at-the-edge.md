@@ -3,7 +3,6 @@ layout: post
 title: At the Edge
 photo: at-the-edge-5.jpg
 additionalphotos: true
-lede: At the Edge is a body of work examining how to capture space and time on a flat surface. The series consists of six composite images, each consisting of a number photographs between eight and 29 layered on top of each other.
 ---
 
 <div class="post-figure">
