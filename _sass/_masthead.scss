@@ -21,8 +21,7 @@
   color: inherit;
   &:hover,
   &:focus {
-    color: $color-link-blue;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
@@ -37,8 +36,7 @@
   color: inherit;
   &:hover,
   &:focus {
-    color: $color-link-blue;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 

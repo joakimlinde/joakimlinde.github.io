@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   {% if forloop.first %}
   {% else %}
   <hr />
@@ -35,4 +35,12 @@ title: Home
     {% endif %}
   </article>
   {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+  <span class="pagination-more">
+    <a href="{{ paginator.next_page_path }}">More</a>  &gt;
+  </span>    
+  {% endif %}
 </div>

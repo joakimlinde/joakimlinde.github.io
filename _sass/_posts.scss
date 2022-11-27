@@ -20,8 +20,7 @@
   color: inherit;
 	&:hover,
 	&:focus {
-		color: $color-link-blue;
-  	text-decoration: none;
+  	text-decoration: underline;
   }
 }
 .page-title,
@@ -49,11 +48,11 @@
   font-weight: 400;
   font-style: normal;
   line-height: 17px;
-  color: #b4b6b8;
+  color: $color-postdate;
 }
 
 .hashtag {
-  color: #b4b6b8;
+  color: $color-hashtag;
 }
 
 .post-figure {

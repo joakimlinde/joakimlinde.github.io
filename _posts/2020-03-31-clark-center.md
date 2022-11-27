@@ -1,8 +1,8 @@
 ---
 layout: photo
 title: Clark Center
-photo: clark-center-3.jpg
-additionalphotos: clark-center-2.jpg, clark-center-1.jpg
+photo: clark-center-2.jpg
+additionalphotos: clark-center-1.jpg, clark-center-3.jpg
 ---
 
 The [James H. Clark Center](https://biox.stanford.edu/about/clark-center), home to 

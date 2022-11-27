@@ -10,6 +10,9 @@ author:
   name: Joakim Linde
   page: about
 
+paginate: 3
+paginate_path: "/page:num/"
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
@@ -20,3 +23,4 @@ sass:
 # Gems
 plugins:
   - jekyll-gist
+  - jekyll-paginate

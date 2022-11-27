@@ -1,0 +1,24 @@
+//
+// Pagination
+//
+// Super small header above the content for site name and short description.
+
+.pagination {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;    
+  text-align: center;
+}
+
+.pagination-more {
+  color: $color-link-blue;
+}
+
+.pagination-more a {
+  &:hover,
+  &:focus {
+    color: $color-link-blue;
+    text-decoration: underline;
+  }
+}
