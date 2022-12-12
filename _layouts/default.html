@@ -4,27 +4,23 @@
 {% include head.html %}
 
 <body>
+  <header class="masthead">
+    <span class="masthead-title">
+      <a href="{{ site.baseurl }}/" title="home">{{ site.title }}</a>
+    </span>
+    <span class="masthead-menu">
+      <a href="{{ site.baseurl }}/about" title="about">About</a>
+    </span>
+  </header>
 
-  <div class="container content">
-    <header class="masthead">
-      <span class="masthead-title">
-        <a href="{{ site.baseurl }}/" title="home">{{ site.title }}</a>
-      </span>
-      <span class="masthead-menu">
-        <a href="{{ site.baseurl }}/about" title="about">About</a>
-      </span>
-    </header>
+  <main>
+  {{ content }}
+  </main>
 
-    <main>
-      {{ content }}
-    </main>
-
-    <footer class="footer">
-      <small>
-        Copyright &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Joakim Linde. All rights reserved.
-      </small>
-    </footer>
-  </div>
-
+  <footer class="footer">
+    <small>
+      Copyright &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Joakim Linde. All rights reserved.
+    </small>
+  </footer>
 </body>
 </html>

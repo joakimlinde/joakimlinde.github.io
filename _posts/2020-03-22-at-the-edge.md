@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: article
 title: At the Edge
 photo: at-the-edge-5.jpg
 additionalphotos: true
 ---
 
-<div class="post-figure">
+<div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-5.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-5.jpg"></a>
 Spinning
@@ -35,43 +35,43 @@ the number of photographs used increases, the more organic and abstract it becom
 becomes harder to determine individual shapes. Instead, a composite image organically 
 emerges — the image gets a life of its own.
 
-<div class="post-figure">
+<div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg"></a>
 Detail of Spinning zoomed in to 100%
 </div>
 
-<div class="post-figure">
+<div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-2.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-2.jpg"></a>
 At the <a href="{{ site.baseurl }}/park-staircase">Edge of Chaos</a>
 </div>
 
-<div class="post-figure">
+<div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-6.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-6.jpg"></a>
 <a href="{{ site.baseurl }}/stanford-health-care">Graphite</a>
 </div>
 
-<div class="post-figure">
+<div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg"></a>
 Detail of Graphite zoomed in to 100%
 </div>
 
-<div class="post-figure">
+<div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-4.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-4.jpg"></a>
 Foot Massage!
 </div>
 
-<div class="post-figure">
+<div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-3.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-3.jpg"></a>
 Enjoying <a href="https://en.wikipedia.org/wiki/The_Gates_of_Hell">The Gates of Hell</a>
 </div>
 
-<div class="post-figure">
+<div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-1.jpg">
   <img src="{{ site.baseurl }}/photos/at-the-edge-1.jpg"></a>
 A day at the <a href="https://museum.stanford.edu/exhibitions/oyyo">Art Museum</a>
