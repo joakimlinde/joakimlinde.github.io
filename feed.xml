@@ -6,8 +6,8 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>{{ site.title }}</title>
-  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self"/>
-  <link href="{{ site.url }}{{ site.baseurl }}/"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self">
+  <link href="{{ site.url }}{{ site.baseurl }}/">
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}</id>
   <author>
@@ -19,7 +19,7 @@ layout: null
     <id>{{ site.url }}{{ post.id }}</id>
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
+    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
     <author>
       <name>{{ site.author.name }}</name>
       <uri>{{ site.url }}{{ site.baseurl }}/{{ site.author.page }}</uri>

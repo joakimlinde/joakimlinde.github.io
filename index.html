@@ -7,7 +7,7 @@ title: Home
   {% for post in paginator.posts %}
   {% if forloop.first %}
   {% else %}
-  <hr />
+  <hr>
   {% endif %}
   <article class="article">
     <h1 class="article-title">
@@ -20,7 +20,7 @@ title: Home
     {% if post.layout == "photo" %}
     {% if post.photo %}
     <p><a href="{{ site.baseurl }}/photos/{{ post.photo }}">
-      <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}" title="{{ post.title }}"></a></p>
+      <img src="{{ site.baseurl }}/photos/{{ post.photo }}" alt="{{ post.title }}"> </a></p>
     {% endif %}
     {% endif %}
     {{ post.content }}
@@ -29,7 +29,7 @@ title: Home
     {% assign additionalphotos = post.additionalphotos | split: ", " %}
     {% for photo in additionalphotos %}
     <p><a href="{{ site.baseurl }}/photos/{{ photo }}">
-      <img src="{{ site.baseurl }}/photos/{{ photo }}" alt="{{ photo }}" title="{{ photo }}"></a></p>
+      <img src="{{ site.baseurl }}/photos/{{ photo }}" alt="{{ photo }}"> </a></p>
     {% endfor %}
     {% endif %}
     {% endif %}
@@ -40,7 +40,7 @@ title: Home
 <div class="pagination">
   {% if paginator.next_page %}
   <span class="pagination-more">
-    <a href="{{ paginator.next_page_path }}">More</a>  &gt;
+    <a href="{{ paginator.next_page_path }}">More</a> &gt;
   </span>    
   {% endif %}
 </div>

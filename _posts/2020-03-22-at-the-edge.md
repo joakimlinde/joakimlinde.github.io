@@ -7,7 +7,7 @@ additionalphotos: true
 
 <div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-5.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-5.jpg"></a>
+<img src="{{ site.baseurl }}/photos/at-the-edge-5.jpg" alt="at the edge 5"> </a>
 Spinning
 </div>
 
@@ -37,42 +37,42 @@ emerges — the image gets a life of its own.
 
 <div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg"></a>
+<img src="{{ site.baseurl }}/photos/at-the-edge-5-detail.jpg" alt="at the edge 5 detail"></a>
 Detail of Spinning zoomed in to 100%
 </div>
 
 <div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-2.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-2.jpg"></a>
+<img src="{{ site.baseurl }}/photos/at-the-edge-2.jpg" alt="at the edge 2"></a>
 At the <a href="{{ site.baseurl }}/park-staircase">Edge of Chaos</a>
 </div>
 
 <div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-6.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-6.jpg"></a>
+<img src="{{ site.baseurl }}/photos/at-the-edge-6.jpg" alt="at the edge 6"></a>
 <a href="{{ site.baseurl }}/stanford-health-care">Graphite</a>
 </div>
 
 <div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg"></a>
+<img src="{{ site.baseurl }}/photos/at-the-edge-6-detail.jpg" alt="at the edge 6 detail"></a>
 Detail of Graphite zoomed in to 100%
 </div>
 
 <div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-4.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-4.jpg"></a>
+<img src="{{ site.baseurl }}/photos/at-the-edge-4.jpg" alt="at the edge 4"></a>
 Foot Massage!
 </div>
 
 <div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-3.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-3.jpg"></a>
+<img src="{{ site.baseurl }}/photos/at-the-edge-3.jpg" alt="at the edge 3"></a>
 Enjoying <a href="https://en.wikipedia.org/wiki/The_Gates_of_Hell">The Gates of Hell</a>
 </div>
 
 <div class="article-figure">
 <a href="{{ site.baseurl }}/photos/at-the-edge-1.jpg">
-  <img src="{{ site.baseurl }}/photos/at-the-edge-1.jpg"></a>
+<img src="{{ site.baseurl }}/photos/at-the-edge-1.jpg" alt="at the edge 1"></a>
 A day at the <a href="https://museum.stanford.edu/exhibitions/oyyo">Art Museum</a>
 </div>
