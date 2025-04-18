@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Joakim Linde"
+  site-url: https://joakimlinde.github.io
+  navbar:
+    search: false
+    right:
+      - icon: github
+        href: https://github.com/joakimlinde
+      - icon: linkedin
+        href: https://linkedin.com/in/joakimlinde
+      - icon: rss
+        href: index.xml
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css

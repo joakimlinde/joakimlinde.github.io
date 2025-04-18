@@ -1,0 +1,15 @@
+---
+title: "Notes"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  feed: true
+page-layout: article
+title-block-banner: false
+execute:
+  freeze: auto
+---
